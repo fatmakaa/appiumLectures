@@ -1,6 +1,6 @@
-package Appium.day03;
+package appium.day03;
 
-import Appium.basedtest.ApiDemosBasedTest;
+import appium.basedtest.ApiDemosBasedTest;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.nativekey.*;
 import org.openqa.selenium.By;

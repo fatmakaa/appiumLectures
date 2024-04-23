@@ -1,10 +1,10 @@
-package Appium.day04_practice;
+package appium.day04_practice;
 
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import Appium.basedtest.GeneralStoreBaseTest;
+import appium.basedtest.GeneralStoreBaseTest;
 
 import java.util.List;
 

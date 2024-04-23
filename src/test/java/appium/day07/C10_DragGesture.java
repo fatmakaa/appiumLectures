@@ -1,6 +1,6 @@
-package Appium.day07;
+package appium.day07;
 
-import Appium.basedtest.ApiDemosBasedTest;
+import appium.basedtest.ApiDemosBasedTest;
 import org.testng.annotations.Test;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;

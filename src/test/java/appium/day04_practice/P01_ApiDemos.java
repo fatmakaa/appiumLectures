@@ -1,6 +1,6 @@
-package Appium.day04_practice;
+package appium.day04_practice;
 
-import Appium.basedtest.ApiDemosBasedTest;
+import appium.basedtest.ApiDemosBasedTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;

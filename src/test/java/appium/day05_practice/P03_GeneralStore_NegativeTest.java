@@ -1,6 +1,6 @@
-package Appium.day05_practice;
+package appium.day05_practice;
 
-import Appium.basedtest.GeneralStoreBaseTest;
+import appium.basedtest.GeneralStoreBaseTest;
 import io.appium.java_client.AppiumBy;
 import org.testng.annotations.Test;
 

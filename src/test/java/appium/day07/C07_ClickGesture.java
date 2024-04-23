@@ -1,12 +1,9 @@
-package Appium.day07;
+package appium.day07;
 
-import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.Test;
-import Appium.basedtest.ApiDemosBasedTest;
-import Appium.utilities.ReusableMethods;
+import appium.basedtest.ApiDemosBasedTest;
 
 public class C07_ClickGesture extends ApiDemosBasedTest {
     @Test

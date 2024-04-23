@@ -1,10 +1,8 @@
-package Appium.day07;
+package appium.day07;
 
-import Appium.basedtest.CalculatorBasedTest;
-import com.google.common.collect.ImmutableMap;
+import appium.basedtest.CalculatorBasedTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.Test;
 
 public class C08_DoubleClickGesture extends CalculatorBasedTest {

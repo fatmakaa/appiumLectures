@@ -1,11 +1,11 @@
-package Appium.day05_practice;
+package appium.day05_practice;
 
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import Appium.basedtest.MyDemoAppBaseTest;
+import appium.basedtest.MyDemoAppBaseTest;
 
 import java.util.List;
 
