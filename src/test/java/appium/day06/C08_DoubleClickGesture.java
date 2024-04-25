@@ -1,4 +1,4 @@
-package appium.day07;
+package appium.day06;
 
 import appium.basedtest.CalculatorBasedTest;
 import io.appium.java_client.AppiumBy;

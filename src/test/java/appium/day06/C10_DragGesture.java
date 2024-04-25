@@ -1,4 +1,4 @@
-package appium.day07;
+package appium.day06;
 
 import appium.basedtest.ApiDemosBasedTest;
 import org.testng.annotations.Test;
@@ -50,7 +50,7 @@ public class C10_DragGesture extends ApiDemosBasedTest {
     }
 
 
-    }
+ }
 
 
 
