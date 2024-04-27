@@ -17,7 +17,7 @@ public class C02_Capabilities {
                 + File.separator + "src"
                 + File.separator + "test"
                 + File.separator + "resources"
-                + File.separator + "ApiDemos-debug.apk";
+                + File.separator + "VodQA.apk";
 
 
         UiAutomator2Options options = new UiAutomator2Options()

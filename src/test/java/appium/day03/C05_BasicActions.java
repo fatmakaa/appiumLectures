@@ -1,6 +1,6 @@
 package appium.day03;
 
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.nativekey.*;
 import org.openqa.selenium.By;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 
-public class C05_BasicActions extends ApiDemosBasedTest {
+public class C05_BasicActions extends ApiDemosBaseTest {
 
     @Test
     public void testActions() throws MalformedURLException, InterruptedException {

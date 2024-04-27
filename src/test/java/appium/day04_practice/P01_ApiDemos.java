@@ -1,13 +1,13 @@
 package appium.day04_practice;
 
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class P01_ApiDemos extends ApiDemosBasedTest {
+public class P01_ApiDemos extends ApiDemosBaseTest {
       /*
     Uygulama: ApiDemos
         API Demos uygulamasına gir

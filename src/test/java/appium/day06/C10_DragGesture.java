@@ -1,11 +1,11 @@
 package appium.day06;
 
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 import org.testng.annotations.Test;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 
-public class C10_DragGesture extends ApiDemosBasedTest {
+public class C10_DragGesture extends ApiDemosBaseTest {
 
     @Test
     public void testDragGestureElement() throws InterruptedException {

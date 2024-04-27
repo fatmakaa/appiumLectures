@@ -1,11 +1,11 @@
 package appium.day06;
 
-import appium.basedtest.CalculatorBasedTest;
+import appium.basetest.CalculatorBaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class C08_DoubleClickGesture extends CalculatorBasedTest {
+public class C08_DoubleClickGesture extends CalculatorBaseTest {
 
     @Test
     public void testDoubleClick() throws InterruptedException {

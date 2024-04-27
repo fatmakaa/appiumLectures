@@ -3,9 +3,9 @@ package appium.day06;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 
-public class C07_ClickGesture extends ApiDemosBasedTest {
+public class C07_ClickGesture extends ApiDemosBaseTest {
     @Test
     public void testClickGestureElement() throws InterruptedException {
         WebElement os = driver.findElement(AppiumBy.accessibilityId("OS"));

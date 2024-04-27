@@ -1,5 +1,6 @@
 package appium.day03;
 
+import appium.basetest.CalculatorBaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
-public class homework_calculator extends appium.basedtest.CalculatorBasedTest {
+public class homework_calculator extends CalculatorBaseTest {
 
     @Test
     public void additionTest(){

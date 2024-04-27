@@ -1,11 +1,11 @@
 package appium.day06;
 
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class C09_LongClickGesture extends ApiDemosBasedTest {
+public class C09_LongClickGesture extends ApiDemosBaseTest {
 
     @Test
     public void testLongClickGestureElement() throws InterruptedException {

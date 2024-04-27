@@ -1,13 +1,13 @@
 package appium.day03;
 
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 
-public class C06_ElementDegerleriniCekme extends ApiDemosBasedTest {
+public class C06_ElementDegerleriniCekme extends ApiDemosBaseTest {
 
     @Test
     public void testElementDegerleriniCekme() throws MalformedURLException {

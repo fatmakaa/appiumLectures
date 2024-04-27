@@ -1,11 +1,11 @@
 package appium.day02;
 
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class C03_Locators extends ApiDemosBasedTest {
+public class C03_Locators extends ApiDemosBaseTest {
     @Test
     public void testLocators() {
 

@@ -1,6 +1,6 @@
 package appium.day03;
 
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 
-public class C04_NativeElements  extends ApiDemosBasedTest {
+public class C04_NativeElements  extends ApiDemosBaseTest {
 
     @Test
     public void testWebElement() throws MalformedURLException {

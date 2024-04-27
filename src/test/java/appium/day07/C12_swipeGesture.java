@@ -1,13 +1,13 @@
 package appium.day07;
 
-import appium.basedtest.ApiDemosBasedTest;
+import appium.basetest.ApiDemosBaseTest;
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.Test;
 
-public class C12_swipeGesture extends ApiDemosBasedTest {
+public class C12_swipeGesture extends ApiDemosBaseTest {
 
     @Test
     public void testSwipeGestureElement() throws InterruptedException {
