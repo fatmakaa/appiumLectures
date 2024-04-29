@@ -13,19 +13,19 @@ public class C01_SetUpDriver {
 
     @Test
     public void testDesiredCapabilities() throws MalformedURLException {
-        String appUrl = System.getProperty("user.dir")
-                + File.separator + "src"
-                + File.separator + "test"
-                + File.separator + "resources"
-                + File.separator + "General-Store.apk";
+     //   String appUrl = System.getProperty("user.dir")
+    //            + File.separator + "src"
+     //           + File.separator + "test"
+    //            + File.separator + "resources"
+    //            + File.separator + "General-Store.apk";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "android"); //Zorunlu
         capabilities.setCapability("automationName", "uiautomator2"); // Zorunlu
-        capabilities.setCapability("app", appUrl);
+       // capabilities.setCapability("app", appUrl);
        // capabilities.setCapability("udid", "5554"); // Duruma göre değişir, zorunlu değil
-//        capabilities.setCapability("appPackage", "io.appium.android.apis");
-//        capabilities.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
+        capabilities.setCapability("appPackage", "com.google.android.dialer");
+       capabilities.setCapability("appActivity", "com.google.android.dialer.extensions.GoogleDialtactsActivity");
 
         URL url = new URL("http://127.0.0.1:4723");
 
@@ -35,17 +35,17 @@ public class C01_SetUpDriver {
 
     @Test
     public void testUiAutomator2Options() throws MalformedURLException {
-        String appUrl = System.getProperty("user.dir")
-                + File.separator + "src"
-                + File.separator + "test"
-                + File.separator + "resources"
-                + File.separator + "ApiDemos-debug.apk";
+      //  String appUrl = System.getProperty("user.dir")
+        //        + File.separator + "src"
+        //        + File.separator + "test"
+        //        + File.separator + "resources"
+       //         + File.separator + "ApiDemos-debug.apk";
 
         UiAutomator2Options options = new UiAutomator2Options()
-                .setApp(appUrl)
-//                .setUdid("3681c19b")
-//                .setAppPackage("io.appium.android.apis")
-//                .setAppActivity("io.appium.android.apis.ApiDemos")
+        //        .setApp(appUrl)
+         //       .setUdid("")
+                .setAppPackage("com.mobisoft.kitapyurdu")
+                .setAppActivity(".main.SplashActivit")
                 ;
 
         URL url = new URL("http://0.0.0.0:4723");

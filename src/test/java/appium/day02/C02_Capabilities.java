@@ -11,9 +11,10 @@ import java.net.URL;
 import java.time.Duration;
 
 public class C02_Capabilities {
+    AndroidDriver driver;
     @Test
-    public void testUiAutomator2Options() throws MalformedURLException {
-        String appUrl = System.getProperty("user.dir")
+    public void testUiAutomator2Options() throws MalformedURLException
+    {String appUrl = System.getProperty("user.dir")
                 + File.separator + "src"
                 + File.separator + "test"
                 + File.separator + "resources"
@@ -33,4 +34,20 @@ public class C02_Capabilities {
         AndroidDriver driver = new AndroidDriver(url, options);
 
     }
+
+
+
+    @Test
+    public void setup() throws MalformedURLException {
+        UiAutomator2Options options = new UiAutomator2Options()
+                .setAppPackage("com.mobisoft.kitapyurdu")
+                .setAppActivity(".main.SplashActivity");
+        URL url = new URL("http://0.0.0.0:4723");
+
+        driver = new AndroidDriver(url, options);
+        // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+    }
+
+
 }
