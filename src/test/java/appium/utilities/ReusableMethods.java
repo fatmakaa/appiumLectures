@@ -12,7 +12,7 @@ import java.time.Duration;
 
 public class ReusableMethods {
 
-    public void wait(int second){
+    public void waitt(int second){
         try {
             Thread.sleep(second*1000);
         } catch (InterruptedException e) {
