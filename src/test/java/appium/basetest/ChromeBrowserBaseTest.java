@@ -16,7 +16,7 @@ public class ChromeBrowserBaseTest extends ReusableMethods {
     @BeforeClass
     public void setup() throws MalformedURLException {
         UiAutomator2Options options = new UiAutomator2Options()
-                //.setUdid("")
+                .setUdid("emulator-5554")
                 .withBrowserName("chrome")
                 ;
 
